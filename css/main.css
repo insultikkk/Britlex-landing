@@ -1,0 +1,597 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins';
+}
+.font-text {
+    font-family: 'Poppins';
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #8F95A5;
+
+}
+.navbarBritlex {
+    /* Home Skills About Us Pricing Contacts */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #263238;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.navbar-nav {
+    width: 48.25vw;
+    height: 30px;
+}
+.brit {
+    color: #000000;
+}
+.lex {
+    color: #939393;
+}
+.menu {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+.btn-navbar {
+    display: none;
+    width: 30px;
+    height: 17px;
+    border: none;
+    background-color: white;
+    float: right
+}
+@media (max-width: 992px) {
+    .btn-navbar {
+        display: block;
+        z-index: 2;
+    }
+.navbarBritlex {
+    display: none;
+}
+
+}
+
+@media (max-width:767px) {
+    .bulb {
+        display: none;
+    }
+    
+}
+.btn-lets {
+box-sizing: border-box;
+width: 220px;
+height: 70px;
+border: 2px solid #263238;
+border-radius: 5px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 35px;
+background-color: white;
+color: #000000;
+transform: scale(1.1);
+}
+.btn-lets:hover {
+    background-color: #263238;
+    color: white;
+    transition: 0.3s;
+    border:#263238;
+}
+
+.learn {
+    /* Learn Any Foreign Language */
+/* width: 386px;
+height: 240px; */
+margin-top:  3.6rem;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 80px;
+color: #000000;
+text-align: left;
+}
+.bulb {
+float: right;
+margin-top: 150px;
+margin-right: 100px;
+}
+
+.bulb:hover {
+color: #D4C17F;
+}
+@media (max-width:1200px) {
+    .bulb {
+        margin-top: 1px;
+    }
+}
+.btn {
+    transform: scale(1.05);    
+}
+.btn:hover {
+    transition: 0.3s;
+}
+.learn-sm {
+    /* With our teachers who write a program for each student, you will be able to make your first sketch after the first lesson. */
+padding-top: 25px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+
+color: #8F95A5;
+}
+.btn-started {
+    /* Rectangle 9 */
+width: 438px;
+height: 118px;
+margin-top: 75px;
+background: #263238;
+border-radius: 15px;
+/* TEXT */
+/* Get started */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 53px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.btn-started:hover {
+    background-color:#1a252a;
+}
+.text-skills {
+    /* Skills */
+    text-align: center;
+    padding-top: 130px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 80px;
+/* identical to box height, or 167% */
+
+
+color: #000000;
+}
+:root {
+    --color-primary: #263238;
+    --color-light-primary: #324751;
+    --color-dark-grey: #8f95a5;
+}
+
+.section-title {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    /* identical to box height, or 167% */
+
+    color: #000000;
+}
+
+#speaking,
+#reading,
+#writing,
+#listening {
+    padding-top: 2.25rem;
+    padding-bottom: 2.75rem;
+}
+
+.card-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    /* identical to box height, or 267% */
+    color: #263238;
+}
+
+.card-text {
+ 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-dark-grey);
+}
+
+.btn {
+    --bs-btn-padding-y: 1rem;
+    --bs-btn-padding-x: 3.25rem;
+    --bs-btn-font-size: 1.25rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.btn-primary:hover {
+    background-color:#1a252a !important;
+border-color:#1a252a !important;
+}
+
+.card {
+    background-color: #f5f5f5;
+    border-radius: 0.625rem;
+transition: 0.2s;
+}
+.card:hover {
+transform: scale(1.03);
+}
+.about-info {
+    display: flex;
+flex-direction: row;
+}
+.text-about {
+    /* About Us */
+margin-top: 282px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 80px;
+color: #000000;
+}
+@media (max-width:767px) {
+    .text-about {
+        text-align: center;
+    }
+    
+}
+@media (max-width:575px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .languages {
+        margin-right: 100px;
+    }
+    .text-about-sm {
+        text-align: center;
+    }
+}
+.text-about-sm {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: #8F95A5;
+}
+.numbers {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 80px;
+/* identical to box height, or 167% */
+
+
+color: #2A3246;
+}
+.text-pupils {  
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #8F95A5;
+}
+.text-teachers {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #8F95A5;
+}
+.text-languages {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #8F95A5;
+}
+.pupils {
+ margin-right: 100px;
+}
+.teachers {
+    margin-right: 100px;
+   }
+.about-img {
+    /* Business competition-bro 1 */
+    position: absolute;
+width: 500px;
+height: 500px;
+left: 960px;
+top: 2448px;
+}
+.pricing {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 80px;
+text-align: center;
+padding-top: 13.5rem;
+/* identical to box height, or 167% */
+
+
+color: #000000;
+}
+.online-course {   
+    width: 311px;
+    height: 311px;
+}
+.live-online{
+    width: 311px;
+    height: 311px;  
+}
+.personal {
+    width: 311px;
+    height: 311px;
+}
+.online-course-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: #263238;
+}
+.online-course-text-sm {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 30px;
+color: #8F95A5;
+
+}
+.border-online-course {
+    background: #EEEEEE;
+border-radius: 5px;
+width: 250px;
+height: 45px;
+text-align: center;
+}
+.price {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+color: #263238;
+background: #EEEEEE;
+border-radius: 5px;
+width: 240px; 
+height: 45px;
+}
+.month {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;  
+    color: #546269;
+}
+.contact-us-text-none {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+}
+@media (max-width:575px) {
+    .contact-us-text {
+display: none;
+    }
+    .contact-us-text-none {
+        display: block;
+    }
+}
+@media (min-width:575px) {
+    .contact-us-text {
+display: none;
+    }
+    .contact-us-text-none {
+        display: block;
+    }
+}
+.contact-us {
+margin-top: 300px;
+}
+.contact-img {
+    width: 477px;
+    height: 429px;
+}
+.left {
+    float: left; 
+ }
+.contact-us-text {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 80px;
+color: #000000;
+}
+.contact-us-textsm {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: #8F95A5;
+}
+.email {
+    box-sizing: border-box;
+width: 450px;
+height: 80px;
+border: 1px solid #8F95A5;
+border-radius: 10px;
+background-color: white;
+height: 80px;
+width: 450px;
+}
+::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    padding-left: 20px;
+    color: #8F95A5;
+
+}
+.email-subscribe {
+display: flex;
+flex-direction: row;
+
+}
+.btn-subscribe {
+width: 264px;
+height: 80px;
+background: #263238;
+border-radius: 10px;
+/* text */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+margin-left: 0.9rem;
+}
+.error .email {
+    border-color: red;
+}
+.error-label {
+    font-family: 'Poppins';
+    font-size: medium;
+    color: red;
+    float: left;
+    margin-top: 5px;
+}
+hr {
+    background: #C4C4C4;
+    margin-top: 210px;
+}
+.footer-last {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8F95A5;
+    float: right;
+}
+footer {
+    margin-bottom: 50px;
+}
+@media (max-width:767px) {
+    .email-subscribe {
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .btn-subscribe {
+        background: #263238;
+        border-radius: 5px;
+        margin-top: 25px;
+        width: 100%;
+    }
+    .email {
+        width: 530px;
+    }
+}
+    
+@media (max-width:992px) {
+    .footer-last {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media (max-width:767px) {
+    .footer-last {
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 500;
+    }
+}
+@media (max-width:320px) {
+    .footer-last {
+        font-size: 11px;
+        line-height: 16px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width:575px) {
+    .footer-last {
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
+@media(max-width:992px){
+    .lern-none{
+        display:none
+    }
+    .d_none_picture{
+        display: none;
+    }
+}
+@media(min-width:992px){
+    .lern-open{
+        display:none
+    }
+    .d_open_picture{
+        display: none;
+    }
+}
